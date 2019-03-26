@@ -32,7 +32,7 @@ h1, #intro, #projects, #contact {
   flex-direction: row;
 }
 
-.menu > li{
+.menu > li {
   display: block;
   margin-right: 20px;
 }
