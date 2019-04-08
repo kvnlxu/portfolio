@@ -69,9 +69,13 @@ h2 {
   width: 320px;
 }
 
-#projects li h3{
-  color: #087E8B;
+#projects h3 {
   text-align: center;
+}
+
+.projectTitle {
+  color: #087E8B;
+  text-decoration: none;
 }
 
 body{
