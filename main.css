@@ -5,8 +5,6 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  /*padding: 0 10%;*/
-  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   background-color: #F3EFF5;
@@ -21,14 +19,19 @@ footer {
 
 h1, #intro, #projects, #contact {
   padding: 0 10%;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   color: #087E8B;
+  text-align: center;
 }
 
 h2 {
   color: #8E3B46;
+  margin-bottom: 30px;
 }
 
 .navbar{
@@ -120,4 +123,13 @@ a {
 
 a:hover {
   color: #979797;
+}
+
+#contact i {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.contact-icons {
+  text-align: center;
 }
